@@ -4,6 +4,6 @@
 FROM ubuntu:latest
 MAINTAINER Hsuan Ming Chen "chming1016@gmail.com"
 
-RUN apt-get update && apt-get upgrade
+RUN apt-get -y update && apt-get -y upgrade
 
 WORKDIR /home
